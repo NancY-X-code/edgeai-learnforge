@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EdgeAI LearnForge 🚀
 
 EdgeAI LearnForge is an AI-powered educational platform that automatically converts messy, unstructured video transcripts (YouTube or local MP4 uploads) into textbook-quality study materials. It uses advanced NLP, local AI agents, and semantic analysis to extract structured knowledge, generate premium flashcards, create intelligent quizzes, build knowledge graphs, and provide an interactive Q&A tutor — all without requiring a cloud API key.
@@ -180,3 +181,6 @@ Background (ThreadPoolExecutor):
 ## 📝 License
 
 This project is for educational purposes and personal portfolio development.
+=======
+# edgeai-learnforge
+>>>>>>> 5f43d6d79a5ec5c5678f2f8bcfd9c947aefe6968
