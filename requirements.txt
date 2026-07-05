@@ -1,0 +1,28 @@
+# EdgeAI LearnForge — Python Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── API Framework ──────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+python-dotenv
+
+# ── HTTP Requests ─────────────────────────────────────────────────────────────
+requests
+
+# ── Transcript Fetching ────────────────────────────────────────────────────────
+youtube-transcript-api
+
+# ── Local Speech-to-Text (MP4 Upload Fallback) ────────────────────────────────
+faster-whisper
+imageio-ffmpeg
+
+# ── Embeddings & Vector Search ────────────────────────────────────────────────
+sentence-transformers
+faiss-cpu
+numpy
+
+# ── NLP (Optional — for enhanced POS-based extraction) ────────────────────────
+# After install, also run: python -m spacy download en_core_web_sm
+spacy

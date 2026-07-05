@@ -1,0 +1,64 @@
+# ── Node / Frontend ────────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Python / Backend ───────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+build/
+develop-eggs/
+
+# ── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Generated Storage & Uploads ────────────────────────────────────────────────
+storage/
+uploads/
+cookies.txt
+cookies.txt/
+
+# ── Editor & OS ────────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Logs & Temp ────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.tmp
+*.temp
+
+# ── Scratch / Debug scripts (one-off utilities, not part of the app) ──────────
+audit_pipeline.py
+check_cards.py
+fix_prompts.py
+fix_syntax.py
+test_ollama_integration.py
+mock-server.js
+page.html
+desc.txt
+
+# ── ML model cache (downloaded automatically, not committed) ──────────────────
+.cache/
